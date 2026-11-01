@@ -1,0 +1,34 @@
+[
+ {
+  "name": "Word counts (baseline)",
+  "trainable": 10002,
+  "val": 0.8659999966621399,
+  "yelp_test": 0.878000020980835,
+  "amazon_test": 0.7749999761581421,
+  "seconds": null
+ },
+ {
+  "name": "Head only",
+  "trainable": 592130,
+  "val": 0.8539999723434448,
+  "yelp_test": 0.8600000143051147,
+  "amazon_test": 0.8349999785423279,
+  "seconds": 1287.9518238003366
+ },
+ {
+  "name": "Last 2 layers",
+  "trainable": 14767874,
+  "val": 0.8840000033378601,
+  "yelp_test": 0.8870000243186951,
+  "amazon_test": 0.8980000019073486,
+  "seconds": 2749.560698699672
+ },
+ {
+  "name": "Whole model",
+  "trainable": 66955010,
+  "val": 0.8859999775886536,
+  "yelp_test": 0.9049999713897705,
+  "amazon_test": 0.8930000066757202,
+  "seconds": 3103.3543350999244
+ }
+]
